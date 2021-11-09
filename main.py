@@ -34,7 +34,7 @@ def medians(nums1,nums2): #Создаем функцию
             return sorted(Spisok)[index]
         return sum(sorted(Spisok)[index-1:index+1])/2
 
-print ('')
+print ('Печатаем списки в квадратных скобках, через запятую, без пробелов, иначе будет плохо')
 nums1 = input('nums1 = ', )
 nums2 = input('nums2 = ', )
 print(medians(nums1,nums2))#Выводим медиану
